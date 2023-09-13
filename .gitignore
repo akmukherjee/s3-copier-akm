@@ -1,1 +1,19 @@
-__pycache__
+# prefect artifacts
+.prefectignore
+
+# python artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+*.egg
+
+# Environments
+.python-version
+.env
+.venv
+env/
+venv/
+
+# MacOS
+.DS_Store
