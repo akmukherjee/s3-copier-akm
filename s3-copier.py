@@ -30,6 +30,6 @@ def runner(source_bucket, destination_bucket):
 
 
 if __name__ == "__main__":
-    source_bucket = "dhloadertest"
-    destination_bucket = "prefect-destination"
+    source_bucket = ""
+    destination_bucket = ""
     runner(source_bucket, destination_bucket)
