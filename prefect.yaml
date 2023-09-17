@@ -21,7 +21,7 @@ push: null
 pull:
     - prefect.projects.steps.git_clone_project:
         id: clone-step
-        repository: https://github.com/jmwarfe/s3-copier.git
+        repository: https://github.com/akmukherjee/s3-copier-akm.git
         branch: main
     - prefect.projects.steps.pip_install_requirements:
         requirements_file: requirements.txt
