@@ -31,7 +31,7 @@ pull:
 
 # the deployments section allows you to provide configuration for deploying flows
 deployments:
-- name: s3-copier
+- name: s3-copier-akm
   version: null
   tags: []
   description: null
